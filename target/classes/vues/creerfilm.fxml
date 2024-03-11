@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="454.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vues.Ajout">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="15.0" prefWidth="68.0" text="Titre" />
+            <TextField fx:id="titre" />
+            <Label prefHeight="15.0" prefWidth="61.0" text="Genre" />
+            <TextField fx:id="genre" />
+            <Label text="Realisateur" />
+            <TextField fx:id="realisateur" />
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="40.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#creerfilm" text="créer film" />
+                  <Button mnemonicParsing="false" onAction="#menu" text="Menu" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
