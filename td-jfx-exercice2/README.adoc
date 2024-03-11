@@ -1,4 +1,4 @@
-= TP2 JFx - Utilisation de ListView et ComboBox
+=  Utilisation de ListView et ComboBox
 
 
 
