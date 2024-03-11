@@ -1,4 +1,4 @@
-= TP1 JFx - Définition des vues
+= Définition des vues
 
 
 
